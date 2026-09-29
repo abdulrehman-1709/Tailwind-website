@@ -1,0 +1,231 @@
+
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="./src/output.css" rel="stylesheet">
+</head>
+<body>
+  <!-- ======================================navbar================================ -->
+<nav class="sticky top-0 z-50">
+  <div class="flex justify-between px-6 max-w-9xl border-b border-gray-100 shadow-xl py-6 bg-white/70 backdrop-blur-md">
+    <!-- Logo -->
+    <div class="flex">
+      <h1 class="text-4xl font-bold text-blue-900 items-center">
+        TAILWIND CSS
+      </h1>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="hidden lg:flex text-lg gap-8 items-center text-gray-400 font-semibold">
+      <a href="#hero" class="hover:text-blue-500 border-t-3 border-transparent hover:border-t-blue-500 ">Home</a>
+      <a href="#about" class="hover:text-blue-500 border-t-3 border-transparent hover:border-t-blue-500 ">About</a>
+      <a href="#contacts" class="hover:text-blue-500 border-t-3 border-transparent hover:border-t-blue-500 ">Contact</a>
+      <a href="#services" class="hover:text-blue-500 border-t-3 border-transparent hover:border-t-blue-500 ">Services</a>
+    </div>
+
+    <!-- Desktop Icons -->
+    <div class="hidden lg:flex gap-4 px-5 items-center">
+      <a href="" class="inline-block text-gray-700 text-lg hover:text-blue-500 transition-all duration-300 hover:-translate-y-1">
+        <i class="fa-solid fa-house"></i>
+      </a>
+
+      <a href="" class="inline-block text-gray-700 text-lg hover:text-blue-500 transition-all duration-300 hover:-translate-y-1">
+        <i class="fa-solid fa-circle-user"></i>
+      </a>
+
+      <a href="" class="inline-block text-gray-700 text-lg hover:text-blue-500 transition-all duration-300 hover:-translate-y-1">
+        <i class="fa-solid fa-file"></i>
+      </a>
+    </div>
+
+    <!-- Mobile Button -->
+    <button id="main-btn" class="lg:hidden font-semibold flex items-center">
+      <i id="mob-icon" class="fa-solid fa-bars text-xl"></i>
+    </button>
+
+  </div>
+  <!-- Mobile Menu -->
+<div id="main-menu" class="hidden lg:hidden bg-white shadow-md py-6">
+  
+  <div class="flex flex-col items-center gap-5 text-lg font-semibold text-gray-600">
+
+    <a href="#hero"
+       class="hover:text-blue-500 transition duration-300">
+      Home
+    </a>
+
+    <a href="#about"
+       class="hover:text-blue-500 transition duration-300">
+      About
+    </a>
+
+    <a href="#contacts"
+       class="hover:text-blue-500 transition duration-300">
+      Contact
+    </a>
+
+    <a href="#services"
+       class="hover:text-blue-500 transition duration-300">
+      Services
+    </a>
+
+  </div>
+
+</div>
+
+
+ 
+</nav>
+    <!--  =============================hero secction================================ - -->
+     <section class="bg-gray-50 px-6 py-20 overflow-hidden relative shadow-xl" id="hero">
+      <div class="grid grid-cols-1 lg:grid-cols-2 ">
+        <div>
+          <span class="text-lg text-blue-700 bg-blue-200 rounded-3xl mb-8 p-2 font-semibold px-3">Get start the practice</span>
+          <h1 class="mt-5 text-6xl text-gray-800 font-bold leading-tight">Well come to the world of <span class="text-blue-800">tailwind css</span></h1>
+          <p class="text-lg text-gray-500 mt-5 leading-relaxed">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, blanditiis? Lorem ipsum dolor sit amet.
+          </p>
+          <div class="flex mt-6 gap-6 mb-10">
+            <a href="" class="text-white bg-blue-700 px-9 py-4 text-sm font-semibold rounded-xl shadow border border-blue-700 hover:animate-pulse">Start</a>
+            <a href="" class="text-gray-600 bg-white px-9 py-4 text-sm font-semibold rounded-xl shadow border border-gray-600 hover:border-blue-600 hover:text-blue-600 ">Read</a>
+          </div>
+        </div>
+        <div>
+          <img class="rounded-lg shadow-2xl" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+      </div>
+     </section>
+<!-- ===========================services=========================== -->
+ <section class="bg-white px-6 py-20 " id="services">
+  <div class="text-center ">
+     <span class="text-lg text-blue-700 bg-blue-200 rounded-3xl mb-8 p-2 font-semibold px-3 ">Our Services</span>
+     <h2 class="mt-5 text-4xl text-gray-800 font-bold leading-tight">We offer a large quantiy <span class="text-blue-700">of Services</span></h2>
+     <p class="text-lg text-gray-500 mt-5 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, error! Lorem ipsum dolor sit amet </p>
+  </div> 
+    <div class="px-6 py-15">
+  <div class="grid grid-cols-1 lg:grid-cols-3">
+     <div class="bg-gray-100 border border-gray-100 px-6 py-8 rounded-xl mx-5 transition-all duration-300 hover:shadow-lg hover:-translate-y-3 hover:cursor-pointer mb-4 ">
+       <i class="fa-brands fa-js text-blue-600 text-7xl border rounded-2xl"></i>
+       <h4 class="mt-3 text-3xl text-gray-500 font-semibold">Well come to javascript</h4>
+       <p class="text-lg text-gray-400 mb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, doloribus.</p>
+       <a href="" class=" bg-blue-800 text-white px-5 py-3 border border-blue-600 rounded-xl">Read me</a>
+     </div>
+     <!-- ==========second=========== -->
+       <div class="bg-gray-100 border border-gray-100 px-6 py-8 rounded-xl mx-5 transition-all duration-300 hover:shadow-lg hover:-translate-y-3 hover:cursor-pointer mb-4 ">
+       <i class="fa-brands fa-css text-blue-600 text-7xl border rounded-2xl"></i>
+       <h4 class="mt-3 text-3xl text-gray-500 font-semibold">Well come to javascript</h4>
+       <p class="text-lg text-gray-400 mb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, doloribus.</p>
+       <a href="" class=" bg-blue-800 text-white px-5 py-3 border border-blue-600 rounded-xl">Read me</a>
+     </div>
+     <!-- ==========third========== -->
+        <div class="bg-gray-100 border border-gray-100 px-6 py-8 rounded-xl mx-5 transition-all duration-300 hover:shadow-lg hover:-translate-y-3 hover:cursor-pointer mb-4 ">
+       <i class="fa-brands fa-js text-blue-600 text-7xl border rounded-2xl"></i>
+       <h4 class="mt-3 text-3xl text-gray-500 font-semibold">Well come to javascript</h4>
+       <p class="text-lg text-gray-400 mb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, doloribus.</p>
+       <a href="" class=" bg-blue-800 text-white px-5 py-3 border border-blue-600 rounded-xl">Read me</a>
+     </div>
+    </div>
+    
+  </div>
+ </section>
+ <!-- ============================about-=================== -->
+  <section class="bg-white px-6 " id="about">
+    <div class="grid grid-cols-1 lg:grid-cols-2 ">
+      <div>
+        <img  class="rounded-lg shadow-lg mb-6" src="https://images.pexels.com/photos/11159221/pexels-photo-11159221.jpeg" alt="">
+      </div>
+      <div class="mx-5 mt-2">
+        <span class="text-lg text-pink-700 bg-pink-200 rounded-3xl mb-8 p-2 font-semibold px-3 ">About us</span>
+        <h2 class="mt-5 text-6xl text-gray-800 font-bold leading-tight">We are offering a big deal in a <span class="text-pink-700">single round</span></h2>
+        <p class="text-lg text-gray-500 mt-5 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsum cumque itaque reprehenderit corrupti neque quisquam rem voluptatibus quia reiciendis.</p>
+         <div class="flex mt-6 gap-6 mb-10">
+            <a href="" class="text-white bg-pink-700 px-9 py-4 text-sm font-semibold rounded-xl shadow border border-pink-700 hover:animate-pulse">Click me</a>
+            <a href="" class="text-gray-600 bg-white px-7 py-4 text-sm font-semibold rounded-xl shadow border border-gray-600 hover:border-pink-700 hover:text-pink-700 ">Read more</a>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================footer=============== -->
+   <footer class="px-7 py-15 bg-blue-900 text-white" id="contacts">
+    <div class="grid grid-cols-2 lg:grid-cols-4">
+      <!-- ===first========= -->
+      <div class="px-5 ">
+       <h4 class="text-3xl font-bold mb-5 px-3">Contacts</h4>
+       <ul class="px-3 leading-relaxed ">
+        <a href="">
+          <li ><span class="font-semibold">Phone:</span> &nbsp;  0-999-111-90</li>
+        </a>
+        <a href="">
+          <li><span class="font-semibold">Mob:</span> &nbsp; 0370-4909913</li>
+        </a>
+        <a href="">
+          <li><span class="font-semibold">Email:</span>  &nbsp; tailwind@gmail.com</li>
+        </a>
+        <a href="">
+          <li><span class="font-semibold">Website:</span>  &nbsp; tailwind.com</li>
+        </a>
+       </ul>
+      </div>
+      <!-- =========second=========== -->
+      <div>
+       <h4 class="text-3xl font-bold mb-5 ">Information</h4>
+       <p class="text-lg text- mt-5 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis amet ex cumque accusamus, optio neque harum est eum ipsam saepe!</p>
+      </div>
+      <!-- ======================third== -->
+       <div>
+          <h4 class="text-3xl font-bold mb-5 px-9">Progammings</h4>
+          <ul class="px-9">
+            <li>PHP</li>
+            <li>LARAVEL</li>
+            <li>MERNSTACK</li>
+            <li>MONGODB</li>
+            <li>EXPRESS</li>
+          </ul>
+       </div>
+       <!-- ===========fourth============ -->
+        <div>
+           <h4 class="text-3xl font-bold mb-5 px-6 lg:px-3">Bookings</h4>
+           <input type="text" class=" bg-white mx-3 rounded-lg border border-gray-500 focus:border-blue-300 mb-7 text-gray-500 outline-none px-2"><br>
+           <a href="" class="text-white bg-gray-600 px-7 py-3 text-sm font-semibold rounded-xl shadow border border-gray-600 hover:animate-pulse mx-3">Book now</a>
+        </div>
+    </div>
+  </footer>
+  <!-- =============END================= -->
+
+
+
+<script>
+  var menu = document.getElementById("main-btn");
+  var menuIcon = document.getElementById("main-menu");
+  var mobIcon = document.getElementById("mob-icon");
+
+  menu.addEventListener("click", function () {
+
+    // Show / hide mobile menu
+    menuIcon.classList.toggle("hidden");
+
+    // Change icon
+    if (mobIcon.classList.contains("fa-bars")) {
+
+      mobIcon.classList.remove("fa-bars");
+      mobIcon.classList.add("fa-xmark");
+
+    } else {
+
+      mobIcon.classList.remove("fa-xmark");
+      mobIcon.classList.add("fa-bars");
+
+    }
+  });
+</script>
+
+
+</body>
+</html>
+
+
+
+
